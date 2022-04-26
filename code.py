@@ -5,9 +5,6 @@ import touchio
 import adafruit_vl53l1x
 import pwmio
 import digitalio
-from audiopwmio import PWMAudioOut as AudioOut
-from audiocore import WaveFile
-
 
 strip_pin=board.A1
 strip_num_of_lights=56
